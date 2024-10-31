@@ -1,0 +1,313 @@
+/* Menu Icon */
+
+@font-face {
+	font-family: 'qpr-menu-icon';
+	src:  url('../images/icons/menu/menu-icon.eot?cet614');
+	src:  url('../images/icons/menu/menu-icon?cet614#iefix') format('embedded-opentype'),
+		url('../images/icons/menu/menu-icon.ttf?cet614') format('truetype'),
+		url('../images/icons/menu/menu-icon.woff?cet614') format('woff'),
+		url('../images/icons/menu/menu-icon.svg?cet614#qpr-menu-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.dashicons-qpr-menu-icon:before {
+	content: "\e900";
+	font-family: 'qpr-menu-icon' !important;
+}
+
+/* Dashboard Notices */
+
+.notice .button {
+	margin-right: 10px;
+}
+
+/* Remove Screen Options that should persist */
+
+#adv-settings label[for="savebox-hide"],
+#adv-settings label[for="qpr-notes-internal-hide"],
+#adv-settings label[for="qpr-notes-customer-hide"],
+#adv-settings label[for="qpr-summary-hide"],
+#adv-settings label[for="qpr-contents-hide"] {
+	display: none !important;
+}
+
+/* Product Data Meta Box */
+
+#qpr-product-data .inside {
+	margin-top: 15px;
+}
+
+#qpr-product-data .inside label {
+	width: 100px;
+	display: block;
+	float: left;
+	padding-top: 5px;
+}
+
+#qpr-product-data .inside input,
+#qpr-product-data .inside select {
+	width: 180px;
+}
+
+#qpr-product-data .inside > div {
+	margin-bottom: 10px;
+}
+
+#qpr-product-data .inside > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Gallery Meta Box */
+
+#qpr-gallery-thumbs {
+	margin-top: 15px;
+}
+
+#qpr-gallery-thumbs::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#qpr-gallery-thumbs > div {
+	float: left;
+	width: 33%;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#qpr-gallery-thumbs > div img {
+	width: 80%;
+	height: auto;
+	display: block;
+	border: 1px solid #dcdcdc;
+}
+
+#qpr-gallery-thumbs div .qpr-remove-gallery-item {
+	position: absolute;
+	top: -6px;
+	left: -6px;
+	display: block;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/* Attributes Page */
+
+.qpr_quote_page_qpr-atts input[name="add_attribute"] {
+	margin: 3px 10px 0 0;
+}
+
+/* Variations Page */
+
+.qpr_quote_page_qpr-variations .qpr-save {
+	margin: 15px 0;
+}
+
+.qpr_quote_page_qpr-variations .qpr-variations-top::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr_quote_page_qpr-variations .qpr-variations-top .qpr-save {
+	float: left;
+}
+
+.qpr_quote_page_qpr-variations .qpr-variations-top .qpr-search {
+	float: right;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-variation-title {
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-no-variations {
+	margin-top: 15px;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-variation-edit {
+	padding: 15px;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-variation-edit:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-variation-edit label {
+	display: block;
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+.qpr_quote_page_qpr-variations #TB_window .qpr-variation-edit label:last-of-type {
+	margin-bottom: 0px;
+}
+
+/* Quote Post Type */
+
+.post-type-qpr_quote #post-body-content {
+	display: none;
+}
+
+/* Quote Save Meta Box */
+
+#savebox .inside {
+	margin-top: 15px;
+}
+#savebox .button {
+	width: 100%;
+	text-align: center;
+}
+
+#savebox .button:not(.submitdelete) {
+	margin-bottom: 10px;
+}
+
+/* Quote Summary Data Meta Box */
+
+#qpr-summary .inside * {
+	box-sizing: border-box;
+}
+
+#qpr-summary .inside::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#qpr-summary .inside .datepicker {
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+
+#qpr-summary .inside > div {
+	float: left;
+	width: 25%;
+	padding-right: 40px;
+}
+
+#qpr-summary .inside label,
+#qpr-summary .inside input,
+#qpr-summary .inside select  {
+	width: 80%;
+}
+
+#qpr-summary .button.button-small {
+	margin-left: 15px;
+}
+
+#qpr-summary .qpr-billing .qpr-edit,
+#qpr-summary .qpr-shipping .qpr-edit {
+	display: none;
+}
+
+/* Quote Contents Meta Box */
+
+#qpr-contents #qpr-quote-contents {
+	margin: 15px 0;
+}
+
+#qpr-contents #qpr-quote-contents td {
+	vertical-align: middle;
+	padding: 10px;
+}
+
+#qpr-contents #qpr-quote-contents input {
+	padding: 5px;
+}
+
+#qpr-contents #qpr-quote-contents input[type="number"] {
+	width: 100px;
+}
+
+#qpr-contents #qpr-quote-contents-save {
+	float: right;
+}
+
+#qpr-contents #qpr-add-product-expand,
+#qpr-contents #qpr-add-product-expand #qpr-add-product-search-results,
+#qpr-contents #qpr-add-product-expand #qpr-add-product-search-results-variation-select,
+#qpr-contents #qpr-add-product-expand #qpr-add-product-qty,
+#qpr-contents #qpr-add-product-expand #qpr-add-product-add {
+	display: none;
+}
+
+#qpr-contents .button:not(#qpr-quote-contents-save) {
+	margin-right: 10px;
+}
+
+#qpr-contents #qpr-add-product-expand {
+	margin-top: 15px;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 15px;
+}
+
+#qpr-contents #qpr-add-product-expand input,
+#qpr-contents #qpr-add-product-expand select {
+	max-width: 180px;
+	width: 180px;
+	display: block;
+}
+
+#qpr-contents #qpr-add-product-expand > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#qpr-contents #qpr-add-product-expand #qpr-add-product-add {
+	margin-top: 15px;
+}
+
+/* Quote Notes Meta Boxes */
+
+#qpr-notes-internal .qpr-notes,
+#qpr-notes-customer .qpr-notes {
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;	
+}
+
+/* Settings */
+
+#qpr-settings .qpr-settings-heading {
+	width: 100%;
+}
+
+#qpr-settings .qpr-settings-heading #qpr-logo {
+	float: right;
+	height: 32px;
+}
+
+#qpr-settings table tr td input[type="text"],
+#qpr-settings table tr td input[type="email"],
+#qpr-settings table tr td input[type="number"],
+#qpr-settings table tr td select,
+#qpr-settings table tr td textarea {
+	width: 300px;
+}
+
+#qpr-settings table tr td textarea {
+	height: 80px;
+}
+
+#qpr-settings .submit::before {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#qpr-settings .qpr-settings-left {
+	float: left;
+	width: 50%;
+}
+
+#qpr-settings .qpr-settings-right {
+	float: left;
+	width: 50%;
+}

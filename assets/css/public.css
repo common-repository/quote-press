@@ -1,0 +1,321 @@
+/* Product Page */
+
+.qpr-product * {
+	box-sizing: border-box;
+}
+
+.qpr-product .qpr-product-top {
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.qpr-product .qpr-product-top::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-product .qpr-product-top .qpr-images {
+	float: left;
+	width: 50%;
+}
+
+.qpr-product .qpr-product-top .qpr-images .qpr-featured-image a {
+	border: 1px solid #dee2e6;
+	padding: 20px;
+	display: block;
+	text-align: center;
+}
+
+.qpr-product .qpr-product-top .qpr-images .qpr-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #dee2e6;
+	margin-top: 20px;
+	padding: 10px 10px 0 10px;
+}
+
+.qpr-product .qpr-product-top .qpr-images .qpr-gallery > div {
+	width: 25%;
+	padding: 0 10px 10px;
+}
+
+.qpr-product .qpr-product-top .qpr-images .qpr-gallery > div a {
+	border: 1px solid #dee2e6;
+	display: block;
+
+}
+
+.qpr-product .qpr-product-top .qpr-buy {
+	float: left;
+	width: 50%;
+	padding-left: 40px;
+}
+
+.qpr-product .qpr-product-top .qpr-buy form > div {
+	margin-bottom: 15px;
+}
+
+.qpr-product .qpr-product-top .qpr-buy form label {
+	display: block;
+}
+
+.qpr-product .qpr-product-top .qpr-buy form input,
+.qpr-product .qpr-product-top .qpr-buy form select {
+	width: 100%;
+}
+
+.qpr-product .qpr-attributes {
+	border-top: 1px solid #dee2e6;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+/* Archive Page */
+
+.qpr-archive-products {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.qpr-archive-products .qpr-archive-product {
+	width: 33%;
+	padding-right: 40px;
+}
+
+.qpr-archive-products .qpr-archive-product .qpr-featured-image {
+	border: 1px solid #dee2e6;
+	margin-bottom: 15px;
+}
+
+.qpr-archive-products .qpr-archive-product .qpr-featured-image img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.qpr-archive-products .qpr-archive-product .qpr-title {
+	margin-bottom: 15px;
+}
+
+.qpr-archive-products .qpr-archive-product .qpr-excerpt {
+	margin-bottom: 15px;
+}
+
+/* Checkout */
+
+.qpr-checkout #qpr-checkout-billing-fields {
+	margin-top: 30px;
+}
+
+.qpr-checkout #qpr-checkout-shipping-fields {
+	display: none;
+}
+
+.qpr-checkout #qpr-checkout-billing-fields > div::after,
+.qpr-checkout #qpr-checkout-shipping-fields > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-checkout #qpr-checkout-billing-fields > div,
+.qpr-checkout #qpr-checkout-shipping-fields > div {
+	margin-bottom: 25px;
+}
+
+.qpr-checkout #qpr-checkout-billing-fields > div > label,
+.qpr-checkout #qpr-checkout-shipping-fields > div > label {
+	width: 180px;
+	float: left;
+	padding-top: 7px;
+}
+
+.qpr-checkout #qpr-checkout-billing-fields > div > input,
+.qpr-checkout #qpr-checkout-billing-fields > div > select,
+.qpr-checkout #qpr-checkout-shipping-fields > div > input,
+.qpr-checkout #qpr-checkout-shipping-fields > div > select {
+	float: left;
+	width: 50% !important;
+}
+
+.qpr-checkout #qpr-submit-quote-request {
+	margin-top: 15px;
+}
+
+/* Account */
+
+.qpr-account-actions {
+	margin-bottom: 25px;
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 25px;
+}
+
+.qpr-account-quotes {
+	margin-bottom: 25px;
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 25px;
+}
+
+.qpr-account-details .qpr-account-details-form > div {
+	margin-bottom: 20px;
+}
+
+.qpr-account-details .qpr-account-details-form > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-account-details .qpr-account-details-form > div label {
+	width: 140px;
+	float: left;
+	padding-top: 7px;
+}
+
+.qpr-account-details .qpr-account-details-form > div input,
+.qpr-account-details .qpr-account-details-form > div select {
+	float: left;
+	width: 50% !important;
+}
+
+.qpr-account-details .qpr-account-details-form > div .description {
+	clear: both;
+	font-style: italic;
+	margin-left: 140px;
+}
+
+.qpr-addresses {
+	margin-bottom: 25px;
+}
+
+.qpr-addresses::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-addresses > div {
+	float: left;
+	width: 50%;
+}
+
+.qpr-register-form > div {
+	margin-bottom: 20px;
+}
+
+.qpr-register-form > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-register-form > div label {
+	width: 140px;
+	float: left;
+	padding-top: 7px;
+}
+
+.qpr-register-form > div input,
+.qpr-register-form > div select {
+	float: left;
+	width: 50% !important;
+}
+
+.qpr-lost-password-form > div {
+	margin-bottom: 20px;
+}
+
+.qpr-lost-password-form > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-lost-password-form > div label {
+	width: 140px;
+	float: left;
+	padding-top: 7px;
+}
+
+.qpr-lost-password-form > div input,
+.qpr-lost-password-form > div select {
+	float: left;
+	width: 50% !important;
+}
+
+.qpr-password-reset-form > div {
+	margin-bottom: 20px;
+}
+
+.qpr-password-reset-form > div::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.qpr-password-reset-form > div label {
+	width: 140px;
+	float: left;
+	padding-top: 7px;
+}
+
+.qpr-password-reset-form > div input,
+.qpr-password-reset-form > div select {
+	float: left;
+	width: 50% !important;
+}
+
+.qpr-payment-details {
+	display: none;
+}
+
+#qpr-place-order {
+	display: none;
+}
+
+/* Widgets */
+
+#qpr-filters .qpr-filter {
+	margin-bottom: 15px;
+}
+
+/* Notices */
+
+.qpr-notice {
+	margin-bottom: 25px;
+	padding: 5px 10px;
+	font-weight: 700;
+}
+
+.qpr-notice a {
+	text-decoration: underline;
+}
+
+.qpr-notice.qpr-notice-success {
+	border: 1px solid #006400;
+	color: #006400;
+}
+
+.qpr-notice.qpr-notice-success a {
+	color: #006400;
+}
+
+.qpr-notice.qpr-notice-error {
+	border: 1px solid #ff0000;
+	color: #ff0000;
+}
+
+.qpr-notice.qpr-notice-error a {
+	color: #ff0000;
+}
+
+.qpr-notice.qpr-notice-info {
+	border: 1px solid #0000ff;
+	color: #0000ff;
+}
+
+.qpr-notice.qpr-notice-info a {
+	color: #0000ff;
+}
